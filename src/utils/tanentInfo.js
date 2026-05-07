@@ -34,8 +34,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.cuttack"
     },
     "address": "Cuttack Municipal Corporation",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.jatni",
@@ -73,8 +73,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.jatni"
     },
     "address": "Jatni Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.angul",
@@ -115,8 +115,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.angul"
     },
     "address": "Angul Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.choudwar",
@@ -157,8 +157,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.choudwar"
     },
     "address": "Choudwar Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.berhampurdevelopmentauthority",
@@ -191,8 +191,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.berhampurdevelopmentauthority"
     },
     "address": "Berhampur Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.birmitrapur",
@@ -227,8 +227,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.birmitrapur"
     },
     "address": "Birmitrapur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.berhampur",
@@ -267,8 +267,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.berhampur"
     },
     "address": "Berhampur Municipal Corporation",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.chatrapur",
@@ -303,8 +303,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.chatrapur"
     },
     "address": "Chatrapur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.cuttackdevelopmentauthority",
@@ -337,8 +337,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.cuttackdevelopmentauthority"
     },
     "address": "Cuttack Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.gopalpur",
@@ -373,8 +373,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.gopalpur"
     },
     "address": "Gopalpur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kalinganagardevelopmentauthority",
@@ -407,8 +407,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kalinganagardevelopmentauthority"
     },
     "address": "Kalinga Nagar Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.khordha",
@@ -446,8 +446,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.khordha"
     },
     "address": "Khordha Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.konark",
@@ -482,8 +482,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.konark"
     },
     "address": "Konark NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.paradeep",
@@ -518,8 +518,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.paradeep"
     },
     "address": "Paradeep Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.paradipdevelopmentauthority",
@@ -552,8 +552,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.paradipdevelopmentauthority"
     },
     "address": "Paradip Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.puri",
@@ -588,8 +588,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.puri"
     },
     "address": "Puri Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.purikonarkdevelopmentauthority",
@@ -622,8 +622,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.purikonarkdevelopmentauthority"
     },
     "address": "Puri Konark Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.rajgangpur",
@@ -658,8 +658,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.rajgangpur"
     },
     "address": "Rajgangpur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.rourkela",
@@ -694,8 +694,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.rourkela"
     },
     "address": "Rourkela Municipal Corporation",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.rourkeladevelopmentauthority",
@@ -728,8 +728,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.rourkeladevelopmentauthority"
     },
     "address": "Rourkela Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.sambalpur",
@@ -764,8 +764,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.sambalpur"
     },
     "address": "Sambalpur Municipal Corporation",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.sambalpurdevelopmentauthority",
@@ -798,8 +798,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.sambalpurdevelopmentauthority"
     },
     "address": "Sambalpur Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.sundargarh",
@@ -834,8 +834,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.sundargarh"
     },
     "address": "Sundargarh Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.talcher",
@@ -870,8 +870,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.talcher"
     },
     "address": "Talcher Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.talcherangulmeramandalidevelopmentauthority",
@@ -904,8 +904,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.talcherangulmeramandalidevelopmentauthority"
     },
     "address": "Talcher Angul Meramandali Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od",
@@ -938,8 +938,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od"
     },
     "address": "Odisha",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.vyasanagar",
@@ -974,8 +974,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.vyasanagar"
     },
     "address": "Vyasanagar Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
 {
     "code": "od.testing",
@@ -1013,8 +1013,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.testing"
     },
     "address": "Testing Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.balasore",
@@ -1054,8 +1054,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.balasore"
     },
     "address": "Balasore Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.dhenkanal",
@@ -1094,8 +1094,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.dhenkanal"
     },
     "address": "Dhenkanal Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.anandapur",
@@ -1129,8 +1129,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.anandapur"
     },
     "address": "Anandapur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.aska",
@@ -1167,8 +1167,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.aska"
     },
     "address": "Aska",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.athagarh",
@@ -1202,8 +1202,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.athagarh"
     },
     "address": "Athagarh NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.athmallik",
@@ -1237,8 +1237,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.athmallik"
     },
     "address": "Athamallik NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.attabira",
@@ -1272,8 +1272,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.attabira"
     },
     "address": "Attabira NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.balangir",
@@ -1310,8 +1310,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.balangir"
     },
     "address": "Balangir Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.balimela",
@@ -1345,8 +1345,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.balimela"
     },
     "address": "Balimela NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.balliguda",
@@ -1380,8 +1380,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.balliguda"
     },
     "address": "Balliguda NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.balugaon",
@@ -1415,8 +1415,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.balugaon"
     },
     "address": "Balugaon NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.banki",
@@ -1450,8 +1450,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.banki"
     },
     "address": "Banki NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.banpur",
@@ -1485,8 +1485,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.banpur"
     },
     "address": "Banpur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bargarh",
@@ -1520,8 +1520,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bargarh"
     },
     "address": "Baragarh Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.barbil",
@@ -1555,8 +1555,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.barbil"
     },
     "address": "Barbil Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.baripada",
@@ -1590,8 +1590,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.baripada"
     },
     "address": "Baripada Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.barpali",
@@ -1625,8 +1625,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.barpali"
     },
     "address": "Barpali NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.basudevpur",
@@ -1660,8 +1660,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.basudevpur"
     },
     "address": "Basudevpur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bellaguntha",
@@ -1695,8 +1695,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bellaguntha"
     },
     "address": "Belaguntha NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.belpahar",
@@ -1734,8 +1734,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.belpahar"
     },
     "address": "Belpahar Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bhadrak",
@@ -1773,8 +1773,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bhadrak"
     },
     "address": "Bhadrak Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bhanjanagar",
@@ -1808,8 +1808,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bhanjanagar"
     },
     "address": "Bhanjanagar NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bhawanipatna",
@@ -1843,8 +1843,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bhawanipatna"
     },
     "address": "Bhawanipatna Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bhuban",
@@ -1878,8 +1878,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bhuban"
     },
     "address": "Bhuban NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bhubaneswar",
@@ -1913,8 +1913,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bhubaneswar"
     },
     "address": "Bhubaneswar",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bhubaneswardevelopmentauthority",
@@ -1946,8 +1946,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bhubaneswardevelopmentauthority"
     },
     "address": "Bhubaneswar Development Authority",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.bijepur",
@@ -1984,8 +1984,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.bijepur"
     },
     "address": "Bijepur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.binka",
@@ -2019,8 +2019,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.binka"
     },
     "address": "Binka NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.boudhgarh",
@@ -2054,8 +2054,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.boudhgarh"
     },
     "address": "Boudhgarh NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.brajrajnagar",
@@ -2093,8 +2093,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.brajrajnagar"
     },
     "address": "Brajrajnagar Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.buguda",
@@ -2128,8 +2128,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.buguda"
     },
     "address": "Buguda NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.champua",
@@ -2163,8 +2163,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.champua"
     },
     "address": "Champua NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.chandbali",
@@ -2198,8 +2198,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.chandbali"
     },
     "address": "Chandbali NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.chikiti",
@@ -2233,8 +2233,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.chikiti"
     },
     "address": "Chikiti NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.daspalla",
@@ -2268,8 +2268,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.daspalla"
     },
     "address": "Daspalla NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.deogarh",
@@ -2303,8 +2303,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.deogarh"
     },
     "address": "Deogarh Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.dhamnagar",
@@ -2338,8 +2338,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.dhamnagar"
     },
     "address": "Dhamnagar NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.dharamgarh",
@@ -2373,8 +2373,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.dharamgarh"
     },
     "address": "Dharamgarh NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.digapahandi",
@@ -2408,8 +2408,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.digapahandi"
     },
     "address": "Digapahandi NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.gudayagiri",
@@ -2443,8 +2443,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.gudayagiri"
     },
     "address": "G. Udayagiri NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.ganjam",
@@ -2478,8 +2478,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.ganjam"
     },
     "address": "Ganjam NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.gudari",
@@ -2513,8 +2513,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.gudari"
     },
     "address": "Gudari NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.gunupur",
@@ -2551,8 +2551,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.gunupur"
     },
     "address": "Gunupur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.hindol",
@@ -2586,8 +2586,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.hindol"
     },
     "address": "Hindol NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.hinjilicut",
@@ -2624,8 +2624,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.hinjilicut"
     },
     "address": "Hinjilicut Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.jagatsinghpur",
@@ -2662,8 +2662,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.jagatsinghpur"
     },
     "address": "Jagatsinghpur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.jajpur",
@@ -2697,8 +2697,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.jajpur"
     },
     "address": "Jajpur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.jaleswar",
@@ -2732,8 +2732,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.jaleswar"
     },
     "address": "Jaleswar Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.jeypore",
@@ -2767,8 +2767,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.jeypore"
     },
     "address": "Jeypore Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.jharsuguda",
@@ -2808,8 +2808,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.jharsuguda"
     },
     "address": "Jharsuguda Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.joda",
@@ -2846,8 +2846,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.joda"
     },
     "address": "Joda Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.junagarh",
@@ -2881,8 +2881,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.junagarh"
     },
     "address": "Junagarh NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kamakhyanagar",
@@ -2916,8 +2916,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kamakhyanagar"
     },
     "address": "Kamakhyanagar NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kantabanji",
@@ -2951,8 +2951,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kantabanji"
     },
     "address": "Kantabanji NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.karanjia",
@@ -2986,8 +2986,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.karanjia"
     },
     "address": "Karanjia NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kashinagar",
@@ -3024,8 +3024,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kashinagar"
     },
     "address": "Kashinagar NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kabisuryanagar",
@@ -3059,8 +3059,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kabisuryanagar"
     },
     "address": "Kavisuryanagar NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kendrapara",
@@ -3094,8 +3094,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kendrapara"
     },
     "address": "Kendrapara Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.keonjhargarh",
@@ -3129,8 +3129,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.keonjhargarh"
     },
     "address": "Keonjhorgarh Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kesinga",
@@ -3164,8 +3164,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kesinga"
     },
     "address": "Kesinga NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.khallikote",
@@ -3199,8 +3199,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.khallikote"
     },
     "address": "Khallikote NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.khandapada",
@@ -3234,8 +3234,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.khandapada"
     },
     "address": "Khandapada NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.khariar",
@@ -3272,8 +3272,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.khariar"
     },
     "address": "Khariar NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.khariarroad",
@@ -3307,8 +3307,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.khariarroad"
     },
     "address": "Khariar Road NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kodala",
@@ -3342,8 +3342,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kodala"
     },
     "address": "Kodala NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.koraput",
@@ -3377,8 +3377,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.koraput"
     },
     "address": "Koraput Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kotpad",
@@ -3412,8 +3412,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kotpad"
     },
     "address": "Kotpad NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.kuchinda",
@@ -3450,8 +3450,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.kuchinda"
     },
     "address": "Kuchinda NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.malkangiri",
@@ -3485,8 +3485,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.malkangiri"
     },
     "address": "Malkangiri Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.nayagarh",
@@ -3520,8 +3520,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.nayagarh"
     },
     "address": "Nayagarh Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.nilgiri",
@@ -3555,8 +3555,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.nilgiri"
     },
     "address": "Nilgiri NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.nimapara",
@@ -3590,8 +3590,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.nimapara"
     },
     "address": "Nimapara NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.nabarangpur",
@@ -3625,8 +3625,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.nabarangpur"
     },
     "address": "Nabarangpur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.nuapada",
@@ -3660,8 +3660,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.nuapada"
     },
     "address": "Nuapada NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.odagaon",
@@ -3695,8 +3695,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.odagaon"
     },
     "address": "Odagaon NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.padampur",
@@ -3730,8 +3730,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.padampur"
     },
     "address": "Padampur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.paralakhemundi",
@@ -3765,8 +3765,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.paralakhemundi"
     },
     "address": "Paralakhemundi Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.patnagarh",
@@ -3800,8 +3800,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.patnagarh"
     },
     "address": "Patnagarh NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.pattamundai",
@@ -3835,8 +3835,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.pattamundai"
     },
     "address": "Pattamundai Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.phulbani",
@@ -3870,8 +3870,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.phulbani"
     },
     "address": "Phulbani Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.pipli",
@@ -3905,8 +3905,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.pipli"
     },
     "address": "Pipli NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.polasara",
@@ -3940,8 +3940,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.polasara"
     },
     "address": "Polasara NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.purushottampur",
@@ -3975,8 +3975,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.purushottampur"
     },
     "address": "Purushottampur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.rairangpur",
@@ -4010,8 +4010,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.rairangpur"
     },
     "address": "Rairangpur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.rambha",
@@ -4045,8 +4045,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.rambha"
     },
     "address": "Rambha NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.ranpur",
@@ -4080,8 +4080,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.ranpur"
     },
     "address": "Ranpur NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.rayagada",
@@ -4115,8 +4115,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.rayagada"
     },
     "address": "Rayagada Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.redhakhol",
@@ -4150,8 +4150,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.redhakhol"
     },
     "address": "Redhakhol NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.sonepur",
@@ -4185,8 +4185,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.sonepur"
     },
     "address": "Sonepur Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.soro",
@@ -4220,8 +4220,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.soro"
     },
     "address": "Soro Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.surada",
@@ -4255,8 +4255,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.surada"
     },
     "address": "Surada NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.sunabeda",
@@ -4290,8 +4290,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.sunabeda"
     },
     "address": "Sunabeda Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.tarbha",
@@ -4325,8 +4325,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.tarbha"
     },
     "address": "Tarbha NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.titilagarh",
@@ -4360,8 +4360,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.titilagarh"
     },
     "address": "Titilagarh Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.tusura",
@@ -4395,8 +4395,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.tusura"
     },
     "address": "Tusura NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.udala",
@@ -4430,8 +4430,8 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.udala"
     },
     "address": "Udala NAC",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   },
   {
     "code": "od.umerkote",
@@ -4465,7 +4465,7 @@ export const ALL_TENANTS_FROM_MDMS = [
       "districtTenantCode": "od.umerkote"
     },
     "address": "Umerkote Municipality",
-    "contactNumber": "1800 121 6833",
-    "helpLineNumber": "1800 121 6833"
+    "contactNumber": "1929",
+    "helpLineNumber": "1929"
   }
 ]
