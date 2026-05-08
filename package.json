@@ -23,7 +23,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,7 +50,8 @@
     "disableHostCheck": true
   },
   "resolutions": {
-    "@babel/core": "^7.25.2"
+    "@babel/core": "^7.25.2",
+    "axios": "1.6.8"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
