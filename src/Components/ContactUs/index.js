@@ -52,7 +52,7 @@ function ContactUs({language}) {
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
               <h3>{translations.callus}</h3>
-              <p>1929</p>
+              <p>1800 121 6833</p>
             </div>
           </div>
 
