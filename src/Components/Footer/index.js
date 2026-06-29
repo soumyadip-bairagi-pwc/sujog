@@ -122,7 +122,7 @@ function Footer({ language }) {
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
                     <a
-                      href="assets/img/SujogPrivacyPolicy2026_v1.pdf"
+                      href="assets/img/SUJOG Privacy Policy_2024.pdf"
                       target="_blank"
                       style={{ fontWeight: 'bold' }}
                     >
