@@ -20,7 +20,10 @@ function Footer({ language }) {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <img src="assets/img/Sujog.jpg" alt="" style={{ marginBottom: "18px" }} />
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <img src="assets/img/SUJOG_New_Logo.webp" alt="" style={{ height: '50px' }} />
+                    <img src="assets/img/SUJOG_New_Logo_Text.webp" alt="SUJOG" style={{ height: '35px', marginLeft: '6px' }} />
+                </div>
                 {/* <p style={{color: "#013151", fontWeight: "bold", marginTop: "15px"}}>
                   {translations.huddDisclaimer}
                 </p> */}

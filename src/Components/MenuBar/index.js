@@ -19,7 +19,10 @@ function Menubar() {
         <div className="container">
             <div className="logo float-left">
                 <Link to="/home">
-                    <img src="assets/img/Sujog.jpg" alt={translations.headerLogoAlt} className="img-fluid" />
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <img src="assets/img/SUJOG_New_Logo.webp" alt={translations.headerLogoAlt} className="img-fluid" style={{ height: '46px' }} />
+                        <img src="assets/img/SUJOG_New_Logo_Text.webp" alt="SUJOG" className="img-fluid" style={{ height: '26px', marginLeft: '4px' }} />
+                    </div>
                 </Link>
             </div>
             <nav className="nav-menu float-right d-none d-lg-block">
@@ -48,6 +51,9 @@ function Menubar() {
                             <li>
                                 <Link to="/mr">{translations.navigationMarriageRegistration}</Link>
                             </li>
+                            {/* <li>
+                                <Link to="/eodbdashboard">{translations.navigationEODBDashboard}</Link>
+                            </li> */}
                         </ul>
                     </li>
                     <li className="drop-down">
