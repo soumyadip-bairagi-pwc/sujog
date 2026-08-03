@@ -304,11 +304,11 @@ function WnS({ language }) {
 														</div>
 
 														<div className="flex-grow-1 free-1">
-															<div className="small font-weight-bold text-primary mb-1">Water_Tariff_2024-25.pdf
-																<div className="h5 pull-right"><a href="Deshboard/images/water tariff_2024-25.pdf" className="tooltip" target="_blank">
+															<div className="small font-weight-bold text-primary mb-1">Water Tariff 2026-27.pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/WATER_TARIFF_2026_27.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="Deshboard/images/water tariff_2024-25.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="Deshboard/images/WATER_TARIFF_2026_27.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 																</div>
 															</div>
