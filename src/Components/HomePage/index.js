@@ -6,30 +6,37 @@ import PreApprovedInfoPopUp from "../PreApprovedInfoPopUp";
 import usePageLocalization from "../../utils/usePageLocalization";
 import ServicesCarousel from "../Services";
 
-// Conclave banner is only shown during two IST windows:
-//   window 1: 2026-08-17 18:00 IST (12:30 UTC) → 2026-08-17 21:00 IST (15:30 UTC)
-//   window 2: 2026-08-18 15:00 IST (09:30 UTC) → 2026-08-20 18:00 IST (12:30 UTC)
+// Conclave banner windows (IST, converted to UTC for zone-safe comparisons):
+//   window 1 — UAT-only preview:    2026-08-17 18:00 IST (12:30 UTC) → 2026-08-17 21:00 IST (15:30 UTC)  → "full" (register + search)
+//   window 2 — production go-live:  2026-08-18 15:00 IST (09:30 UTC) → 2026-08-20 18:00 IST (12:30 UTC)  → "full"
+//   window 3 — post-event wind-down: 2026-08-20 18:00 IST (12:30 UTC) → 2026-08-24 00:00 IST (Aug 23 18:30 UTC, end of Sunday) → "search" only
+// UAT is identified by the "-dev" segment in the hostname (matches sujog-dev.odisha.gov.in),
+// the same convention used in MenuBar for baseUrl selection.
 const CONCLAVE_WINDOW_1_START = Date.UTC(2026, 7, 17, 12, 30);
 const CONCLAVE_WINDOW_1_END = Date.UTC(2026, 7, 17, 15, 30);
 const CONCLAVE_WINDOW_2_START = Date.UTC(2026, 7, 18, 9, 30);
 const CONCLAVE_WINDOW_2_END = Date.UTC(2026, 7, 20, 12, 30);
-const isConclaveBannerVisible = () => {
+const CONCLAVE_WINDOW_3_END = Date.UTC(2026, 7, 23, 18, 30);
+const getConclaveBannerMode = () => {
   const now = Date.now();
-  return (
-    (now >= CONCLAVE_WINDOW_1_START && now <= CONCLAVE_WINDOW_1_END) ||
-    (now >= CONCLAVE_WINDOW_2_START && now <= CONCLAVE_WINDOW_2_END)
-  );
+  const isUAT = window.location.hostname.includes("-dev");
+  const inWindow1 = isUAT && now >= CONCLAVE_WINDOW_1_START && now <= CONCLAVE_WINDOW_1_END;
+  const inWindow2 = now >= CONCLAVE_WINDOW_2_START && now <= CONCLAVE_WINDOW_2_END;
+  const inWindow3 = now > CONCLAVE_WINDOW_2_END && now <= CONCLAVE_WINDOW_3_END;
+  if (inWindow1 || inWindow2) return "full";
+  if (inWindow3) return "search";
+  return null;
 };
 
 const HomePage = ({ language }) => {
   const translations = usePageLocalization(language, 'home');
   const isLoading = useSelector((state) => state.localization.isLoading);
   const [isExpanded, setIsExpanded] = useState(false);
-  const [showConclaveBanner, setShowConclaveBanner] = useState(isConclaveBannerVisible);
+  const [conclaveBannerMode, setConclaveBannerMode] = useState(getConclaveBannerMode);
 
   useEffect(() => {
     const id = setInterval(() => {
-      setShowConclaveBanner(isConclaveBannerVisible());
+      setConclaveBannerMode(getConclaveBannerMode());
     }, 60000);
     return () => clearInterval(id);
   }, []);
@@ -203,16 +210,24 @@ const HomePage = ({ language }) => {
         </div> */}
 
       </div>
-      {showConclaveBanner && (
+      {conclaveBannerMode && (
         <div className="conclave-banner">
-          🔔 {translations.conclaveBannerText}&nbsp;
-          <a
-            href="/citizen/withoutAuth/egov-usm/register"
-            className="conclave-banner-link"
-          >
-            {translations.conclaveBannerLinkText}
-          </a>
-          &nbsp;|&nbsp;
+          🔔{" "}
+          {conclaveBannerMode === "full"
+            ? translations.conclaveBannerText
+            : translations.conclavePostEventText}
+          &nbsp;
+          {conclaveBannerMode === "full" && (
+            <>
+              <a
+                href="/citizen/withoutAuth/egov-usm/register"
+                className="conclave-banner-link"
+              >
+                {translations.conclaveBannerLinkText}
+              </a>
+              &nbsp;|&nbsp;
+            </>
+          )}
           <a
             href="/citizen/withoutAuth/egov-usm/search"
             className="conclave-banner-link"
