@@ -7,9 +7,9 @@ import usePageLocalization from "../../utils/usePageLocalization";
 import ServicesCarousel from "../Services";
 
 // Conclave banner is only shown during two IST windows:
-//   window 1: 2026-08-17 19:00 IST (13:30 UTC) → 2026-08-17 21:00 IST (15:30 UTC)
+//   window 1: 2026-08-17 18:00 IST (12:30 UTC) → 2026-08-17 21:00 IST (15:30 UTC)
 //   window 2: 2026-08-18 15:00 IST (09:30 UTC) → 2026-08-20 18:00 IST (12:30 UTC)
-const CONCLAVE_WINDOW_1_START = Date.UTC(2026, 7, 17, 13, 30);
+const CONCLAVE_WINDOW_1_START = Date.UTC(2026, 7, 17, 12, 30);
 const CONCLAVE_WINDOW_1_END = Date.UTC(2026, 7, 17, 15, 30);
 const CONCLAVE_WINDOW_2_START = Date.UTC(2026, 7, 18, 9, 30);
 const CONCLAVE_WINDOW_2_END = Date.UTC(2026, 7, 20, 12, 30);
