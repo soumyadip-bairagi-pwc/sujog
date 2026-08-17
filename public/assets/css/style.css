@@ -2697,6 +2697,30 @@ h6,
   color: #fe7a51;
 }
 
+.conclave-banner {
+  width: 100%;
+  background: #F47216;
+  color: #ffffff;
+  padding: 10px 16px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.conclave-banner-link {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.conclave-banner-link:hover,
+.conclave-banner-link:focus {
+  color: #ffffff;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
 .rolling-banner {
   width: 100%;
   background: #012970;

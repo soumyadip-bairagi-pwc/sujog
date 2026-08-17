@@ -16,24 +16,50 @@
 
 
 /* CustomModal.css */
+/* Popup uses a 2.5:1 aspect ratio; slides use object-fit: contain to fit without distortion. */
 .custom-modal-size .modal-dialog {
-    max-width: 90%; /* Adjust the width as per your requirement */
+    width: 75vw;
+    max-width: 75vw;
   }
-  
+
+  @media (max-width: 767px) {
+    .custom-modal-size .modal-dialog {
+      width: 95vw;
+      max-width: 95vw;
+    }
+  }
+
   .custom-modal-size .modal-content {
     width: 100%;
-    max-height: 90vh; /* Adjust the height as per your requirement */
     max-width: none!important;
+  }
 
-  }
-  
   .custom-modal-size .modal-body {
-    overflow-y: auto; /* Enable vertical scrolling if needed */
+    overflow: hidden;
+    padding: 0;
   }
-  
+
+  .custom-modal-size .carousel,
+  .custom-modal-size .carousel-inner {
+    aspect-ratio: 2.5 / 1;
+    width: 100%;
+  }
+
+  .custom-modal-size .carousel-item {
+    aspect-ratio: 2.5 / 1;
+    background: #fff;
+  }
+
+  .custom-modal-size .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
   .custom-modal-size .modal-header,
   .custom-modal-size .modal-footer {
-    padding: 20px; /* Adjust the padding as needed */
+    padding: 20px;
   }
   
 

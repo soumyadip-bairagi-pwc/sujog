@@ -180,6 +180,15 @@ const HomePage = ({ language }) => {
         </div> */}
 
       </div>
+      <div className="conclave-banner">
+        🔔 {translations.conclaveBannerText}&nbsp;
+        <a
+          href="/citizen/withoutAuth/egov-usm/register"
+          className="conclave-banner-link"
+        >
+          {translations.conclaveBannerLinkText}
+        </a>
+      </div>
       <div className="rolling-banner">
         <div className="rolling-content">
           <span>
