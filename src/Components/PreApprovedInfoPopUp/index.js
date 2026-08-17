@@ -137,10 +137,10 @@ const PreApprovedInfoPopUp = () => {
                       data-target="#carouselExampleIndicators"
                       data-slide-to="1"
                     ></li>
-                    {/* <li
+                    <li
                       data-target="#carouselExampleIndicators"
                       data-slide-to="2"
-                    ></li> */}
+                    ></li>
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -195,13 +195,16 @@ const PreApprovedInfoPopUp = () => {
                         alt="Second slide"
                       ></img>
                     </div>
-                    {/* <div class="carousel-item">
-                      <img
-                        class="d-block w-100"
-                        src="assets/img/slide/utkarsh_odisha_2.jpg"
-                        alt="Third slide"
-                      ></img>
-                    </div> */}
+                    <div class="carousel-item">
+                      <a href="/citizen/withoutAuth/egov-usm/register">
+                        <img
+                          class="d-block w-100"
+                          src="assets/img/Conclave_pop.png"
+                          alt="Odisha Urban Conclave Registration"
+                          style={{ cursor: "pointer" }}
+                        ></img>
+                      </a>
+                    </div>
                   </div>
                   <a
                     class="carousel-control-prev"
