@@ -51,9 +51,9 @@ function Menubar() {
                             <li>
                                 <Link to="/mr">{translations.navigationMarriageRegistration}</Link>
                             </li>
-                            {/* <li>
+                            <li>
                                 <Link to="/eodbdashboard">{translations.navigationEODBDashboard}</Link>
-                            </li> */}
+                            </li>
                         </ul>
                     </li>
                     <li className="drop-down">

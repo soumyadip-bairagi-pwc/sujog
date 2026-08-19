@@ -22,7 +22,7 @@ import ULBSpage from "./Components/ULBs-page";
 import TPA from "./Components/TPA";
 import Notification from "./Components/Notification";
 import Loader from './Components/Loader';
-// import EODBDashboard from "./Components/EODBDashboard";
+import EODBDashboard from "./Components/EODBDashboard";
 
 function App() {
   const isTopWindow = window === window.top;
@@ -59,7 +59,7 @@ function App() {
             <Route path="/Registration" component={Registration} />
             <Route path="/ulbs" component={ULBSpage} />
             <Route path="/tpa" component={TPA} />
-            {/* <Route path="/eodbdashboard" component={EODBDashboard} /> */}
+            <Route path="/eodbdashboard" component={EODBDashboard} />
             <Route render={() => <Redirect to="/home" />} />
           </Switch>
           <Footer />
