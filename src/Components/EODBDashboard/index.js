@@ -615,7 +615,7 @@ const EODBDashboard = () => {
   const [loadingSla, setLoadingSla] = useState(false);
 
   const [table2Data, setTable2Data] = useState([]);
-  const [filters2, setFilters2] = useState({ ...EMPTY_FILTERS, dateFrom: "", dateTo: "" });
+  const [filters2, setFilters2] = useState({ ...EMPTY_FILTERS });
   const [options2, setOptions2] = useState(EMPTY_OPTIONS);
   const [loading2, setLoading2] = useState(false);
 
@@ -684,7 +684,7 @@ const EODBDashboard = () => {
       try {
         setLoading2(true);
         const query = encodeURIComponent(
-          `select A,B,C,D,E,F,G,H,I,J,K,L,M,N${buildWhereClause(filters2, filters2.dateFrom, filters2.dateTo)}`
+          `select A,B,C,D,E,F,G,H,I,J,K,L,M,N${buildWhereClause(filters2)}`
         );
         const rows = await fetchSheet(SHEETS.performance, query);
         setTable2Data(aggregateTable2(rows.map(r => ({
@@ -801,7 +801,7 @@ const EODBDashboard = () => {
       {loadingSla ? <Loader /> : renderSLATable(slaHeaders, slaRows)}
 
       <SectionHeader title={t.performanceOverviewTitle} />
-      <div style={{ ...styles.filterContainer, gridTemplateColumns: isMobile ? "1fr" : "repeat(6, 1fr)" }}>
+      <div style={{ ...styles.filterContainer, gridTemplateColumns: isMobile ? "1fr" : "repeat(4, 1fr)" }}>
         <FilterSelect
           label="District"
           value={filters2.district}
@@ -820,17 +820,7 @@ const EODBDashboard = () => {
           onChange={(e) => { const v = e.target.value; setFilters2(f => ({ ...f, service: v })); }}
           options={options2.services}
         />
-        <DateInput
-          label="From Date"
-          value={filters2.dateFrom}
-          onChange={(v) => setFilters2(f => ({ ...f, dateFrom: v }))}
-        />
-        <DateInput
-          label="To Date"
-          value={filters2.dateTo}
-          onChange={(v) => setFilters2(f => ({ ...f, dateTo: v }))}
-        />
-        <ResetButton onClick={() => setFilters2({ ...EMPTY_FILTERS, dateFrom: "", dateTo: "" })} />
+        <ResetButton onClick={() => setFilters2({ ...EMPTY_FILTERS })} />
       </div>
       {loading2 ? <Loader /> : renderTable(section2Headers, section2Rows)}
 
