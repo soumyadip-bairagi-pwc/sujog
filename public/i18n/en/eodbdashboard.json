@@ -25,5 +25,10 @@
     "avoidedSelfCert": "No. of enterprises exempted based on self-certification",
     "avoidedThirdParty": "No. of enterprises exempted based on third-party certification",
     "reportsWithin24h": "Total no. of inspections' report uploaded within 24 hours",
-    "reportsAfter24h": "Total no. of inspections' report uploaded beyond 24 hours"
+    "reportsAfter24h": "Total no. of inspections' report uploaded beyond 24 hours",
+    "noteLabel": "Note:",
+    "dataNotePrefix": "The data displayed above reflects records from",
+    "dataNoteBetween": "to",
+    "dataNoteSuffix": "",
+    "dataStartDate": "31st December 2020"
 }

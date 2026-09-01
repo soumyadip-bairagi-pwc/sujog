@@ -229,6 +229,33 @@ const styles = {
     background: "transparent"
   },
 
+  dataNote: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+    marginTop: "12px",
+    marginBottom: "32px",
+    padding: "12px 16px",
+    background: "linear-gradient(90deg, rgba(254,122,81,0.08) 0%, rgba(1,41,112,0.06) 100%)",
+    borderLeft: "4px solid #FE7A51",
+    borderRadius: "8px",
+    fontSize: "13px",
+    color: "#34495e",
+    lineHeight: "1.5"
+  },
+
+  dataNoteIcon: {
+    flexShrink: 0,
+    width: "18px",
+    height: "18px",
+    color: "#FE7A51"
+  },
+
+  dataNoteHighlight: {
+    color: "#012970",
+    fontWeight: 600
+  },
+
 };
 
 const fetchSheet = async (sheetName, query = "") => {
@@ -920,6 +947,30 @@ const EODBDashboard = () => {
       <SectionHeader title={t.inspectionComplianceTitle} />
       <FilterRow filters={filters3} setFilters={setFilters3} options={options3} isMobile={isMobile} />
       {loading3 ? <Loader /> : renderTable(section3Headers, section3Rows)}
+
+      <div style={styles.dataNote}>
+        <svg
+          style={styles.dataNoteIcon}
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <line x1="12" y1="16" x2="12" y2="12" />
+          <line x1="12" y1="8" x2="12.01" y2="8" />
+        </svg>
+        <span>
+          <span style={styles.dataNoteHighlight}>{t.noteLabel}</span> {t.dataNotePrefix}{" "}
+          <span style={styles.dataNoteHighlight}>{t.dataStartDate}</span> {t.dataNoteBetween}{" "}
+          <span style={styles.dataNoteHighlight}>
+            {new Date().toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" })}
+          </span>
+          {t.dataNoteSuffix ? ` ${t.dataNoteSuffix}` : ""}.
+        </span>
+      </div>
     </div>
   );
 };
