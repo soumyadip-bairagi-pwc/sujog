@@ -1,5 +1,5 @@
 import usePageLocalization from "../../utils/usePageLocalization";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useSelector } from "react-redux";
 
 const SPREADSHEET_ID = "1Pxlyh4YM66x2HSW7u-yvL6waiREQrCCh";
@@ -202,6 +202,31 @@ const styles = {
     fontSize: "14px",
     color: "#555",
     textAlign: "center"
+  },
+
+  dropdownMenu: {
+    position: "absolute",
+    top: "calc(100% + 4px)",
+    left: 0,
+    right: 0,
+    background: "#fff",
+    border: "1px solid #dfe3e8",
+    borderRadius: "8px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+    maxHeight: "220px",
+    overflowY: "auto",
+    zIndex: 100,
+    listStyle: "none",
+    padding: "4px 0",
+    margin: 0
+  },
+
+  dropdownItem: {
+    padding: "10px 14px",
+    fontSize: "14px",
+    color: "#2c3e50",
+    cursor: "pointer",
+    background: "transparent"
   },
 
 };
@@ -441,24 +466,92 @@ const SectionHeader = ({ title, noTopMargin }) => (
 
 const FilterSelect = ({ label, value, onChange, options }) => {
   const [focus, setFocus] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const wrapperRef = useRef(null);
+
+  const displayValue = value === "ALL" ? "All" : value;
+
+  useEffect(() => {
+    if (!open) setQuery("");
+  }, [open]);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target)) {
+        setOpen(false);
+        setFocus(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const select = (v) => {
+    onChange({ target: { value: v } });
+    setOpen(false);
+    setQuery("");
+  };
+
+  const q = query.trim().toLowerCase();
+  const filtered = q
+    ? options.filter((opt) => String(opt).toLowerCase().includes(q))
+    : options;
+  const allMatches = !q || "all".includes(q);
 
   return (
-    <div style={styles.filterGroup}>
+    <div style={styles.filterGroup} ref={wrapperRef}>
       <label style={styles.label}>{label}</label>
       <div style={styles.selectWrapper}>
-        <select
-          value={value}
-          onChange={onChange}
-          style={{ ...styles.select, ...(focus ? styles.selectFocus : {}) }}
-          onFocus={() => setFocus(true)}
+        <input
+          type="text"
+          value={open ? query : displayValue}
+          placeholder={open ? displayValue : ""}
+          onChange={(e) => { setQuery(e.target.value); if (!open) setOpen(true); }}
+          onFocus={() => { setFocus(true); setOpen(true); }}
           onBlur={() => setFocus(false)}
-        >
-          <option value="ALL">All</option>
-          {options.map((opt) => (
-            <option key={opt} value={opt}>{opt}</option>
-          ))}
-        </select>
+          style={{ ...styles.select, ...(focus ? styles.selectFocus : {}), paddingRight: "32px" }}
+        />
         <span style={styles.arrow}>▼</span>
+        {open && (
+          <ul style={styles.dropdownMenu}>
+            {allMatches && (
+              <li
+                style={{
+                  ...styles.dropdownItem,
+                  ...(value === "ALL" ? { background: "#eef2f7", fontWeight: 600 } : {})
+                }}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => select("ALL")}
+                onMouseEnter={(e) => (e.currentTarget.style.background = "#eef2f7")}
+                onMouseLeave={(e) => (e.currentTarget.style.background = value === "ALL" ? "#eef2f7" : "transparent")}
+              >
+                All
+              </li>
+            )}
+            {filtered.length === 0 && !allMatches ? (
+              <li style={{ ...styles.dropdownItem, color: "#888", fontStyle: "italic", cursor: "default" }}>
+                No matches
+              </li>
+            ) : (
+              filtered.map((opt) => (
+                <li
+                  key={opt}
+                  style={{
+                    ...styles.dropdownItem,
+                    ...(value === opt ? { background: "#eef2f7", fontWeight: 600 } : {})
+                  }}
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => select(opt)}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = "#eef2f7")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = value === opt ? "#eef2f7" : "transparent")}
+                >
+                  {opt}
+                </li>
+              ))
+            )}
+          </ul>
+        )}
       </div>
     </div>
   );
@@ -780,8 +873,8 @@ const EODBDashboard = () => {
 
   const section3Rows = table3Data.map((d, i) => [
     i + 1, d.service, d.required, d.completed, d.yetToConduct,
-    d.withinTime, d.afterTimeline, d.selfCert, d.thirdParty,
-    d.within24h, d.after24h
+    d.withinTime, d.afterTimeline, "N/A", "N/A",
+    d.withinTime, d.afterTimeline
   ]);
 
   return (
